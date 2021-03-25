@@ -1,0 +1,44 @@
+
+@font-face{
+    font-family: ProductSans;
+    src: url(../assets/Product\ Sans\ Regular.ttf);
+}
+*{
+    font-family: ProductSans;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0% 5% 0% 5%;
+}
+h1{
+    margin-top: 2%;
+    display: inline;
+}
+#header-h1{
+    margin: 2% 2% 2% 2%;
+}
+.logos {
+    width: 40px;
+    padding: 0px 5px 0px 5px;
+    float: right;
+    display: inline;  
+  }
+  header{
+padding: 0% 0% 0% 0%;
+  }
+  html{
+      background-color: rgb(217, 255, 255);
+  }
+  h2{
+    padding: 0% 2% 1% 2%;
+  }
+  ul{
+      padding: 0% 2% 1% 10%;
+      font-size: 18px;
+  }
+  p{
+      padding: 0% 2% 1% 4%;
+      font-size:20px;
+  }

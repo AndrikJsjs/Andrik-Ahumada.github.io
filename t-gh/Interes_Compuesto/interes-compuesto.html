@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style-interes-compuesto.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interés compuesto</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Interés Compuesto</h1>
+            <article>
+                <header>
+                    <h2>¿Qué es el interés compuesto?</h2>
+                </header>
+                <p>
+                    El interés compuesto es aquel interés que se cobra por un crédito y al ser liquidado se acumula al capital (Capitalización el interés), por lo que, en la siguiente liquidación de intereses, el interés anterior forma parte del capital o base del cálculo del nuevo interés.
+                </p>
+                <p>
+                    Este sistema, al capitalizar los intereses hace que el valor que se paga por concepto de intereses se incremente mes a mes, puesto que la base para el cálculo del interés se incrementa cada vez que se liquidan y acumulan los respectivos intereses.
+                </p>
+                <p>
+                    Este sistema es ampliamente aplicado en el sistema financiero. En todos los créditos que hacen los bancos sin importar su modalidad, se utiliza el interese compuesto.
+                </p>
+                <p>
+                    La razón por la que existe este sistema, es porque supone la reinversión de los intereses por parte del prestamista.
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>Ejemplo</h3>
+                </header>
+                    <p class="ejemplo">
+                        A manera de ejemplo se puede decir que, si se tiene un crédito por 1.000.000 al 2% mensual, al cabo del primer mes se ha generado un interés de 20.000 (1.000.000 * 0.02), valor que se suma al capital inicial, el cual queda en 1.020.000.
+                    </p>
+                    <p class="ejemplo">
+                        Así, en el segundo mes el interés se calcula sobre 1.020.000, lo que da un interés de 20.400 (1.020.000 *0,02), valor que se acumula nuevamente al saldo anterior de 1.020.000 quedando el capital en 1.040.400 y así sucesivamente.
+                    </p>
+                    <p class="ejemplo">
+                        Para que no se acumule el interés, es preciso pagar cada mes la totalidad del interés causado, pero si no se paga nada o se paga parcialmente, el valor de los intereses no pagados necesariamente se capitaliza.
+                    </p>
+            </article>
+            <article>
+                <header>
+                    <h2>Formula para calcular el interés compuesto.</h2>
+                </header>
+                <p>
+                    El interés compuesto se calcula simplemente aplicando el porcentaje sobre el capital, por ejemplo, si tenemos un capital de $1.000 un interés mensual del 5%, tomamos;
+                </p>
+                <p>
+                    1.000 x 0.05 = 50.
+                </p>
+                <p>
+                    Para determinar el valor futuro de un préstamo a una tasa de interés determinada, en un periodo determinado, se utiliza la siguiente formula:
+                </p>
+                <p>
+                    <em>S = P(1 + I)n</em>
+                </p>
+                <p>
+                    Lo cual es:
+                </p>
+                <table>
+                    <thead>
+                        <th>Valor</th>
+                        <th>Significado</th>
+                    </thead>
+                    <tr>
+                        <td>S</td>
+                        <td>Es el valor futuro del crédito, es decir, el valor inicial del crédito más los intereses capitalizados.</td>
+                    </tr>
+                    <tr>
+                        <td>P</td>
+                        <td>Es el valor presente del crédito, es decir, el valor inicial de crédito.</td>
+                    </tr>
+                    <tr>
+                        <td>I</td>
+                        <td>Es la tasa de interés expresada en decimales (5% = 0,05 que resulta de 5/100).</td>
+                    </tr>
+                    <tr>
+                        <td>N</td>
+                        <td>Es el periodo o número de meses de plazo del crédito.</td>
+                    </tr>
+                </table>
+                <p>
+                    Tomando el ejemplo antes realizado tenemos:
+                </p>
+                <p>
+                    S es lo que debemos averiguar.
+                </p>
+                <ul>
+                    <li>P = 20.000.000</li>
+                    <li>I 3% = 0,03</li>
+                    <li>N 2 meses</li>
+                </ul>
+                <p>
+                    Entonces: 
+                    S = 20.000.000 (1,03)2 
+                </p>
+                <p>
+                        S = 20.000.000 * 1,0609 
+                </p>
+                <p>
+                        S = 21.218.000. 
+                </p>
+                <p>
+                        Es decir que si usted presta $20.000.000 al 3% mensual, en dos meses debe la suma de $21.218.000.
+                </p>
+                <p>
+                        Ahora, si queremos saber únicamente el valor de los intereses, a S le restamos P y tendremos los intereses ganados durante esos dos meses:
+                </p>
+                <p>
+                        21.218.000 (S) – 20.000.000 (P) = 1.218.000 (I).    
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+      <div>
+        <h3 id="contactanos">Contactanos</h3>
+        <a href="https://facebook.com/andrikjsjs" target="_blank"><img
+            class="logos"
+            src="../assets/Facebook-gris.png"
+            alt="Andrik Ahumada"
+            title="Facebook Andrik Ahumada"></a>
+        <a href="https://instagram.com/andrikjsjs" target="_blank"><img
+            class="logos"
+            src="../assets/Instagram-gris.png"
+            alt="AndrikJsjs"
+            title="Instagram andrikjsjs"></a>
+        <a href="https://twitter.com/andrikjsjs" target="_blank"><img
+            class="logos"
+            src="../assets/Twitter-gris.png"
+            alt="AndrikJsjs"
+            title="Twitter AndrikJsjs"></a>
+            <div>
+                <p class="autor">andrik2604alexander@gmail.com</p>
+                <p class="autor">Creado por <strong><a href="../assets/curriculum.html" target="_blank">Andrik Ahumada</a></strong></p>
+            </div>
+      </div>
+    </footer>
+</body>
+</html>
