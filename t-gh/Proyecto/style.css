@@ -1,0 +1,97 @@
+
+            html{
+                background-color: #F4EADF;
+            }
+            @font-face{
+                font-family: Product-Sans;
+                src: url(assets/Product\ Sans\ Regular.ttf);
+            }
+            header{
+                background-color:#D84B5E ;
+                width: 90%;
+                border-radius: 2%;
+                padding: 10px 3% 10px 3%;
+                margin: 10px 2% 0px 2%;  
+                color: #F7F5F6;
+            }
+            #ques{
+                background-color: #D84B5E;
+                color: #F7F5F6;
+                text-align: center;
+            }
+            *{
+                padding: 0%;
+                margin: 0%;
+                font-family: Product-Sans;
+                text-shadow: 1px 1px 3px #ffa8ba;
+            }
+            article{
+                padding: 0% 5% 2% 5%;
+                font-size: 90%;
+
+            }
+            #imagen-yakult{
+                width: 20%;
+                box-shadow: none;
+                padding: 0% 0% 0% 0%;
+                margin: 0%;
+            }
+            label{
+                font-size: 130%;
+                padding: 3% 1% 10% 10%;
+            }
+            input{
+                border: 3px solid #C1002B;
+                border-radius: 5%;
+                width: 5%;
+                padding: 0% 0% 0% 0%;text-shadow: 1px 1px 3px #ffa8ba;
+                box-shadow: 1px 1px 3px #ffa8ba;
+                
+            }
+            #enviar{
+                border: 3px solid #C1002B;
+                border-radius: 5%;
+                width: 90%;
+                padding: 1% 0% 1% 0%;text-shadow: 1px 1px 3px #ffa8ba;
+                box-shadow: 1px 1px 3px #ffa8ba;
+                display: block;
+                margin: 1% auto 1% auto;
+            }
+            h1{
+                font-size: 2em;
+            }
+            p{
+            padding-top: 10px;
+            font-size: 20px;
+            }
+            img{
+                float: right;
+                margin: 2%;
+                width: 300px;
+                box-shadow: 10px 10px 20px #D84B5E;
+                border-radius: 20px;
+            }
+            footer{
+                text-align: center;
+            }
+            .logos {
+                width: 50px;
+                margin: 10px 5px 0px 5px;
+                padding: 0px;
+                display: inline;
+                float: none;
+                border-radius: 100px;
+                box-shadow: 6px 6px 10px #D84B5E;
+              }
+              #contactanos{
+                  padding: 0%;
+              }
+            .autor{
+                padding-bottom: 15px;
+            }
+            a{
+                color: #D84B5E ;
+            }
+            a:hover{
+                color: #C1002B;
+            }
